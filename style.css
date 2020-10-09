@@ -1,0 +1,57 @@
+.frame{
+		width: 350px;
+		height: 550px;
+		z-index: 10;
+
+		z-index: 8;
+		border: 5px solid #000;
+}
+.ball{
+
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border: 1px solid #000;
+	border-radius: 20px;
+	z-index: 10;
+
+	
+}
+.marginBody{
+	margin: 5%;
+}
+.whiteSpace{
+	width: 360px;
+	height: 5px;
+	background-color: #fff;
+	margin-top: -5px;
+	z-index: 9;
+}
+.obstacle{
+	z-index: -1;
+	width: 140px;
+	height: 5px;
+	background-color: blue;
+	margin-top: -5px;
+
+}
+.score{
+	width: 360px;
+	display: inline-block;
+}
+.stayScore{
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	font-size: 28px;
+	color: #777777;
+}
+.level{
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	font-size: 28px;
+	color: #777777;
+
+
+}
